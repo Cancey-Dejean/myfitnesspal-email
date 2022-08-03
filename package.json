@@ -1,0 +1,20 @@
+{
+  "name": "my-fitness-pal-email",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "mjml --watch src/index.mjml --output index.html",
+    "server": "live-server --host=localhost",
+    "dev": "concurrently \"npm start\" \"npm run server\"",
+    "build": "mjml src/index.mjml --output index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "live-server": "^1.2.1",
+    "mjml": "^4.12.0"
+  }
+}

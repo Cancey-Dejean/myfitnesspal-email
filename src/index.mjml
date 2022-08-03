@@ -1,0 +1,490 @@
+<mjml>
+  <mj-head>
+    <mj-title>MyFitnessPal Email</mj-title>
+    <mj-font
+      name="Roboto"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    />
+
+    <mj-attributes>
+      <mj-table padding="0" />
+      <mj-body background-color="#f8f8f8" width="600px" />
+      <mj-section padding="0" background-color="#FFFDFA" />
+      <mj-all font-family="Roboto, sans-serif" />
+      <mj-text padding="0" color="#222628" font-weight="400" />
+      <mj-image padding="0" />
+      <mj-class name="cta-table" padding="0" font-size="30px" />
+      <mj-divider padding="0" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .btn a { padding: 14px; background-color: #0066EE; display: block;
+      border-radius: 50px; font-size: 18px; text-transform: uppercase;
+      text-align: center; text-decoration: none; color: #fff; } .footer-btn a {
+      display: inline-block; background: #ffffff; padding: 12px 29px;
+      text-align: center; color: #0066ee; text-decoration: none; border: 2px
+      solid #0066ee; font-weight: 700; width: 100px; font-size: 15px;
+      line-height: 18px; } .manage div { font-size: 14px; line-height: 14px;
+      color: #616161; } .manage div a { font-size: 14px; line-height: 14px;
+      color: #0066ee; font-weight: 700; text-decoration: none; } .link-settings
+      div a { font-size: 12px; line-height: 14px; color: #616161;
+      text-decoration: none; text-align: center; display: inline-block; }
+      .unsubscribe div a { font-size: 12px; line-height: 34px; color: #616161;
+      text-decoration: underline; text-align: center; }
+    </mj-style>
+  </mj-head>
+
+  <mj-body>
+    <!-- Hero -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image
+          src="https://cdn.shopify.com/s/files/1/0630/5307/0560/files/hero.png?v=1657293714"
+          alt="Going the Distance Together"
+        />
+      </mj-column>
+    </mj-section>
+    <!-- End Hero -->
+
+    <!-- Text Area -->
+    <mj-section>
+      <!-- Text -->
+      <mj-column width="100%">
+        <mj-text
+          align="center"
+          font-size="55px"
+          line-height="60px"
+          font-weight="900"
+          letter-spacing="0px"
+          padding="0px 20px 20px"
+        >
+          Going the <br />
+          Distance Together
+        </mj-text>
+      </mj-column>
+
+      <!-- Divider -->
+      <mj-column width="460px">
+        <mj-divider
+          border-width="2px"
+          border-style="solid"
+          border-color="#0066ee"
+        />
+      </mj-column>
+
+      <!-- Text -->
+      <mj-column width="100%">
+        <mj-text
+          align="center"
+          font-size="30px"
+          font-weight="400"
+          line-height="35px"
+          letter-spacing="0"
+          padding="10px 20px"
+        >
+          One Couple’s Success Story
+        </mj-text>
+      </mj-column>
+
+      <!-- Divider -->
+      <mj-column width="460px">
+        <mj-divider
+          border-width="2px"
+          border-style="solid"
+          border-color="#0066ee"
+        />
+      </mj-column>
+
+      <!-- Button -->
+      <mj-column width="280px" padding="40px 0 30px">
+        <mj-text css-class="btn">
+          <a
+            href="https://link.e.blog.myfitnesspal.com/f/a/-rcC2mGSUZK5BywUkMeJAA~~/AAQRxQA~/RgRj7NVnP0SpaHR0cHM6Ly9ibG9nLm15Zml0bmVzc3BhbC5jb20vaG93LW15Zml0bmVzc3BhbC1oZWxwZWQtY2MtcnVuLWhhcmQtYW5kLWxvdmUtaGFyZGVyPyUyNHdlYl9vbmx5PXRydWUmdXRtX3NvdXJjZT1tZnAmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249MjAyMjAyMTRfTUZQTmV3c2xldHRlcjYwRFcDc3BjQgpiBWdQCmJ2MGlEUhFjYW5jZXlkQGdtYWlsLmNvbVgEAAAAfA~~"
+            target="_blank"
+            >Read The Story</a
+          >
+        </mj-text>
+      </mj-column>
+
+      <!-- Text -->
+      <mj-column width="450px" padding="10px 20px">
+        <mj-text
+          align="center"
+          font-size="20px"
+          line-height="30px"
+          letter-spacing="0"
+        >
+          CC and Ash were both single parents on their own journeys towards
+          better health.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- End Text Area -->
+
+    <!-- Image Banner Text -->
+    <mj-section>
+      <!-- Image -->
+      <mj-column width="100%">
+        <mj-image
+          src="https://cdn.shopify.com/s/files/1/0630/5307/0560/files/hero-2.gif?v=1657293714"
+          alt="image gif"
+        />
+      </mj-column>
+
+      <!-- Text -->
+      <mj-column width="450px">
+        <mj-text
+          align="center"
+          font-size="20px"
+          line-height="30px"
+          letter-spacing="0"
+          padding="0px 20px 60px"
+        >
+          <p>
+            They met while being actively involved in the
+            <a style="font-weight: bold; color: #222628; text-decoration: none">
+              MyFitnessPal Community</a
+            >
+            MyFitnessPal Community (<em
+              >although CC kept telling herself that it’s not a dating site!</em
+            >) and connected over their passion for healthy living and CC’s half
+            marathon training. <br />
+            <br />Fast forward to now, the two are engaged and expecting a baby
+            boy.
+          </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- End Image Banner Text -->
+
+    <!-- Big Content Area -->
+    <mj-section
+      background-url="https://cdn.shopify.com/s/files/1/0630/5307/0560/files/bb-bg.png?v=1657293626"
+      background-repeat="no-repeat"
+    >
+      <!-- Text -->
+      <mj-column width="400px">
+        <mj-text
+          align="center"
+          font-size="20px"
+          line-height="30px"
+          padding="120px 20px 10px"
+        >
+          This Valentine’s Day, spread the love of health with a friend or loved
+          one. <br />
+          Invite them to join you on MyFitnessPal to share progress, tips, and
+          encourage each other. And who knows...you just might discover an
+          unexpected surprise!
+        </mj-text>
+      </mj-column>
+
+      <!-- Image -->
+      <mj-column width="280px" padding="30px 0 0">
+        <mj-text css-class="btn">
+          <a
+            href="https://link.e.blog.myfitnesspal.com/f/a/-rcC2mGSUZK5BywUkMeJAA~~/AAQRxQA~/RgRj7NVnP0SpaHR0cHM6Ly9ibG9nLm15Zml0bmVzc3BhbC5jb20vaG93LW15Zml0bmVzc3BhbC1oZWxwZWQtY2MtcnVuLWhhcmQtYW5kLWxvdmUtaGFyZGVyPyUyNHdlYl9vbmx5PXRydWUmdXRtX3NvdXJjZT1tZnAmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249MjAyMjAyMTRfTUZQTmV3c2xldHRlcjYwRFcDc3BjQgpiBWdQCmJ2MGlEUhFjYW5jZXlkQGdtYWlsLmNvbVgEAAAAfA~~"
+            target="_blank"
+            >Read The Story</a
+          >
+        </mj-text>
+      </mj-column>
+
+      <!-- Divider -->
+      <mj-column width="450px" padding="60px 0">
+        <mj-divider
+          border-width="2px"
+          border-style="solid"
+          border-color="#0066ee"
+        />
+      </mj-column>
+
+      <!-- Text -->
+      <mj-column width="450px" background-color="#e2f3fd">
+        <mj-text
+          align="center"
+          padding="0 20px 20px"
+          font-size="35px"
+          font-weight="900"
+          line-height="40px"
+          letter-spacing="0"
+          color="#0066ee"
+        >
+          Join the MyFitnessPal Community
+        </mj-text>
+
+        <mj-text
+          align="center"
+          font-size="20px"
+          line-height="30px"
+          letter-spacing="0"
+          padding="0 20px"
+        >
+          A place for you to ask questions, share tips and tricks and find
+          inspiration from fellow members.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Text -->
+    <mj-section background-color="#e2f3fd">
+      <mj-column width="280px" padding="30px 0">
+        <mj-text css-class="btn">
+          <a
+            href="https://link.e.blog.myfitnesspal.com/f/a/4-rxop7USZdPfR95iS9DJg~~/AAQRxQA~/RgRj7NVnP0R9aHR0cHM6Ly9jb21tdW5pdHkubXlmaXRuZXNzcGFsLmNvbS9lbj8lMjR3ZWJfb25seT10cnVlJnV0bV9zb3VyY2U9bWZwJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTIwMjIwMjE0X01GUE5ld3NsZXR0ZXI2MERXA3NwY0IKYgVnUApidjBpRFIRY2FuY2V5ZEBnbWFpbC5jb21YBAAAAHw~"
+            target="_blank"
+            >Introduce yourself</a
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Image -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image
+          src="https://cdn.shopify.com/s/files/1/0630/5307/0560/files/food.png?v=1657293714"
+          alt="bowl"
+        />
+      </mj-column>
+    </mj-section>
+    <!-- End Big Content Area -->
+
+    <!-- Footer -->
+    <!-- Text -->
+    <mj-section padding="30px 0 20px">
+      <mj-column width="408px">
+        <mj-text
+          align="center"
+          font-size="18px"
+          line-height="22px"
+          font-weight="700"
+        >
+          Explore More From MyFitnessPal
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Buttons -->
+    <mj-section padding="0 20px 20px">
+      <mj-group width="364px" css-class="buttons-grp">
+        <mj-column>
+          <mj-text css-class="footer-btn" align="center">
+            <a
+              href="https://link.e.blog.myfitnesspal.com/f/a/MEbIPQk86qAkxr4KY9cWZA~~/AAQRxQA~/RgRj7NVnP0SPaHR0cHM6Ly9ibG9nLm15Zml0bmVzc3BhbC5jb20vdmlkZW8vPyUyNHdlYl9vbmx5PXRydWUmdXRtX3NvdXJjZT1tZnAmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249MjAyMjAyMTRfTUZQTmV3c2xldHRlcjYwRCZ1dG1fY29udGVudD1mb290ZXJXA3NwY0IKYgVnUApidjBpRFIRY2FuY2V5ZEBnbWFpbC5jb21YBAAAAHw~"
+              target="_blank"
+              >VIDEOS</a
+            >
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-text css-class="footer-btn" align="center">
+            <a
+              href="https://link.e.blog.myfitnesspal.com/f/a/7xKdVJRW_I5njEEmSRkTzQ~~/AAQRxQA~/RgRj7NVnP0SRaHR0cHM6Ly9ibG9nLm15Zml0bmVzc3BhbC5jb20vcmVjaXBlcy8_JTI0d2ViX29ubHk9dHJ1ZSZ1dG1fc291cmNlPW1mcCZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj0yMDIyMDIxNF9NRlBOZXdzbGV0dGVyNjBEJnV0bV9jb250ZW50PWZvb3RlclcDc3BjQgpiBWdQCmJ2MGlEUhFjYW5jZXlkQGdtYWlsLmNvbVgEAAAAfA~~"
+              target="_blank"
+              >RECIPES</a
+            >
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- Text -->
+    <mj-section padding="0 20px 20px">
+      <mj-group width="364px" css-class="buttons-grp">
+        <mj-column>
+          <mj-text css-class="footer-btn" align="center">
+            <a
+              href="https://link.e.blog.myfitnesspal.com/f/a/IsKRftERXeGOWJe0bBem3g~~/AAQRxQA~/RgRj7NVnP0SeaHR0cHM6Ly9ibG9nLm15Zml0bmVzc3BhbC5jb20vY2F0ZWdvcnkvd2VpZ2h0LWxvc3MvPyUyNHdlYl9vbmx5PXRydWUmdXRtX3NvdXJjZT1tZnAmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249MjAyMjAyMTRfTUZQTmV3c2xldHRlcjYwRCZ1dG1fY29udGVudD1mb290ZXJXA3NwY0IKYgVnUApidjBpRFIRY2FuY2V5ZEBnbWFpbC5jb21YBAAAAHw~"
+              target="_blank"
+              >WEIGHT LOSS</a
+            >
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-text css-class="footer-btn" align="center">
+            <a
+              href="https://link.e.blog.myfitnesspal.com/f/a/3z1p_RXQyodj08usoyUVMQ~~/AAQRxQA~/RgRj7NVnP0SaaHR0cHM6Ly9ibG9nLm15Zml0bmVzc3BhbC5jb20vY2F0ZWdvcnkvZml0bmVzcy8_JTI0d2ViX29ubHk9dHJ1ZSZ1dG1fc291cmNlPW1mcCZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj0yMDIyMDIxNF9NRlBOZXdzbGV0dGVyNjBEJnV0bV9jb250ZW50PWZvb3RlclcDc3BjQgpiBWdQCmJ2MGlEUhFjYW5jZXlkQGdtYWlsLmNvbVgEAAAAfA~~"
+              target="_blank"
+              >FITNESS</a
+            >
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- Text -->
+    <mj-section padding="0 20px 30px">
+      <mj-group width="364px" css-class="buttons-grp">
+        <mj-column>
+          <mj-text css-class="footer-btn" align="center">
+            <a
+              href="https://link.e.blog.myfitnesspal.com/f/a/IHh0NEpJVVb_KDlGJZgnJA~~/AAQRxQA~/RgRj7NVnP0ScaHR0cHM6Ly9ibG9nLm15Zml0bmVzc3BhbC5jb20vY2F0ZWdvcnkvbnV0cml0aW9uLz8lMjR3ZWJfb25seT10cnVlJnV0bV9zb3VyY2U9bWZwJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTIwMjIwMjE0X01GUE5ld3NsZXR0ZXI2MEQmdXRtX2NvbnRlbnQ9Zm9vdGVyVwNzcGNCCmIFZ1AKYnYwaURSEWNhbmNleWRAZ21haWwuY29tWAQAAAB8"
+              target="_blank"
+              >NUTRITION</a
+            >
+          </mj-text>
+        </mj-column>
+
+        <mj-column>
+          <mj-text css-class="footer-btn" align="center">
+            <a
+              href="https://link.e.blog.myfitnesspal.com/f/a/6dkFwuVUz8jTjMI_rcCo4w~~/AAQRxQA~/RgRj7NVnP0SbaHR0cHM6Ly9ibG9nLm15Zml0bmVzc3BhbC5jb20vY2F0ZWdvcnkvd2VsbG5lc3MvPyUyNHdlYl9vbmx5PXRydWUmdXRtX3NvdXJjZT1tZnAmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249MjAyMjAyMTRfTUZQTmV3c2xldHRlcjYwRCZ1dG1fY29udGVudD1mb290ZXJXA3NwY0IKYgVnUApidjBpRFIRY2FuY2V5ZEBnbWFpbC5jb21YBAAAAHw~"
+              target="_blank"
+              >WELLNESS</a
+            >
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- Text -->
+    <mj-section>
+      <mj-column>
+        <mj-text
+          align="center"
+          font-size="16px"
+          line-height="24px"
+          font-weight="700"
+          padding-bottom="10px"
+        >
+          Download the App Today
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Image -->
+    <mj-section padding-bottom="60px">
+      <mj-group width="320px">
+        <mj-column padding-right="10px">
+          <mj-image
+            align="right"
+            href="https://link.e.blog.myfitnesspal.com/f/a/sCQ07qGMTtO3zNEPhh2TPg~~/AAQRxQA~/RgRj7NVnP0SiaHR0cHM6Ly9hcHBzLmFwcGxlLmNvbS91cy9hcHAvbXlmaXRuZXNzcGFsL2lkMzQxMjMyNzE4Lz8lMjR3ZWJfb25seT10cnVlJnV0bV9zb3VyY2U9bWZwJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTIwMjIwMjE0X01GUE5ld3NsZXR0ZXI2MEQmdXRtX2NvbnRlbnQ9Zm9vdGVyVwNzcGNCCmIFZ1AKYnYwaURSEWNhbmNleWRAZ21haWwuY29tWAQAAAB8"
+            width="150px"
+            src="https://cdn.shopify.com/s/files/1/0630/5307/0560/files/app-store.png?v=1657293626"
+            alt="App Store"
+          />
+        </mj-column>
+
+        <mj-column padding-left="10px">
+          <mj-image
+            align="left"
+            href="https://link.e.blog.myfitnesspal.com/f/a/XwsNt9RBbwLweZMQnnMAfg~~/AAQRxQA~/RgRj7NVnP0SxaHR0cHM6Ly9wbGF5Lmdvb2dsZS5jb20vc3RvcmUvYXBwcy9kZXRhaWxzP2lkPWNvbS5teWZpdG5lc3NwYWwuYW5kcm9pZCYlMjR3ZWJfb25seT10cnVlJnV0bV9zb3VyY2U9bWZwJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTIwMjIwMjE0X01GUE5ld3NsZXR0ZXI2MEQmdXRtX2NvbnRlbnQ9Zm9vdGVyVwNzcGNCCmIFZ1AKYnYwaURSEWNhbmNleWRAZ21haWwuY29tWAQAAAB8"
+            width="150px"
+            src="https://cdn.shopify.com/s/files/1/0630/5307/0560/files/play-store.png?v=1657293626"
+            alt="Play Store"
+          />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- Image -->
+    <mj-section>
+      <mj-column width="100%">
+        <mj-image
+          width="140px"
+          src="https://cdn.shopify.com/s/files/1/0630/5307/0560/files/my-fp-log.png?v=1657293626"
+          alt="MFP Logo"
+        />
+      </mj-column>
+    </mj-section>
+
+    <!-- Image -->
+    <mj-section padding="5px 0 30px">
+      <mj-group width="120px">
+        <mj-column>
+          <mj-image
+            href="https://link.e.blog.myfitnesspal.com/f/a/sxYYGpIP3hWz-DA27YdZPg~~/AAQRxQA~/RgRj7NVnP0SRaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL215Zml0bmVzc3BhbC8_JTI0d2ViX29ubHk9dHJ1ZSZ1dG1fc291cmNlPW1mcCZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj0yMDIyMDIxNF9NRlBOZXdzbGV0dGVyNjBEJnV0bV9jb250ZW50PWZvb3RlclcDc3BjQgpiBWdQCmJ2MGlEUhFjYW5jZXlkQGdtYWlsLmNvbVgEAAAAfA~~"
+            align="center"
+            width="30px"
+            src="https://cdn.shopify.com/s/files/1/0630/5307/0560/files/facebook.png?v=1657293626"
+            alt="Facebook"
+          />
+        </mj-column>
+
+        <mj-column>
+          <mj-image
+            href="https://link.e.blog.myfitnesspal.com/f/a/KPZQngE17z4Z5QeclnsVmw~~/AAQRxQA~/RgRj7NVnP0SSaHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS9teWZpdG5lc3NwYWwvPyUyNHdlYl9vbmx5PXRydWUmdXRtX3NvdXJjZT1tZnAmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249MjAyMjAyMTRfTUZQTmV3c2xldHRlcjYwRCZ1dG1fY29udGVudD1mb290ZXJXA3NwY0IKYgVnUApidjBpRFIRY2FuY2V5ZEBnbWFpbC5jb21YBAAAAHw~"
+            align="center"
+            width="30px"
+            src="https://cdn.shopify.com/s/files/1/0630/5307/0560/files/instagram.png?v=1657293626"
+            alt="Instagram"
+          />
+        </mj-column>
+
+        <mj-column>
+          <mj-image
+            href="https://link.e.blog.myfitnesspal.com/f/a/TK4G7usgkNDI6jvsbakTLw~~/AAQRxQA~/RgRj7NVnP0SMaHR0cHM6Ly90d2l0dGVyLmNvbS9NeUZpdG5lc3NQYWwvPyUyNHdlYl9vbmx5PXRydWUmdXRtX3NvdXJjZT1tZnAmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249MjAyMjAyMTRfTUZQTmV3c2xldHRlcjYwRCZ1dG1fY29udGVudD1mb290ZXJXA3NwY0IKYgVnUApidjBpRFIRY2FuY2V5ZEBnbWFpbC5jb21YBAAAAHw~"
+            align="center"
+            width="30px"
+            src="https://cdn.shopify.com/s/files/1/0630/5307/0560/files/twitter.png?v=1657293626"
+            alt="Twitter"
+          />
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <!-- Text -->
+    <mj-section padding="10px 0 30px">
+      <mj-column>
+        <mj-text align="center" css-class="manage">
+          No longer wish to receive our emails?
+          <a
+            href="https://link.e.blog.myfitnesspal.com/f/a/wO5d_lZUlrsRGDzzJ2zFjQ~~/AAQRxQA~/RgRj7NVnP4QZAmh0dHBzOi8vMDYuZW1haWxpbmJvdW5kcHJvY2Vzc2luZy5jb20vZW1haWwvbWFuYWdlX3N1YnNjcmlwdGlvbnMvdUJnQnAlMkJzbFJpMUJNOUprUWdqY2F3JTNEJTNEJTI0JTJCNkJabnpBakh4c2h6JTJGWkJkUHR3WWZzRjBJanRPRzVoeUZpcXZwblJlV0UlM0Q_ZD1pR0N1blF0ViUyRkV1Q05IMEFXejBUQ2clM0QlM0QlMjRmWUFETFVHVmd4SHNMNjB3Z0dSb2dUUGFhVGFDSnNnbWo1T0RWaENYOGp2JTJCOGxjWU5Za2VmTzQ4ak1nVSUwQUNoREVCMzZETXhDOXd0ZVclMkJUcm1wUWhLakdFYjhmUzJZJTJGejUxQ0l4NmFoc2xMZTFDOUlCSlpzdFdjSEwlMEFCUlJrVE55RXJYcGQlMkZaZGRnZ0hodG5MWk1JUCUyRmZMUloxdmR6RDVZTzc0UlZpSGlFU2IyeklDWk9KZFZlJTBBZk9PTXdTV3l5NDRzb1psRyUyQjFhNjJYZ3JkVml3dVAlMkJIb2ZlQkJKRSUyQnJwbTFQOG9YYVB0STh2Q3pLa2drJTBBQlBwT3JIR2VlOE13d1dYZ0NoWGFsUWgxYjd4WEk2Z3kzVjdVcTQlMkJMZE9aekpaSzBYN3pkRE16Y0tkbyUzRCYxPTEmJTI0d2ViX29ubHk9dHJ1ZVcDc3BjQgpiBWdQCmJ2MGlEUhFjYW5jZXlkQGdtYWlsLmNvbVgEAAAAfA~~"
+            target="_blank"
+            >Manage Your Preferences</a
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Text -->
+    <mj-section>
+      <mj-column width="350px">
+        <mj-text align="center" css-class="link-settings">
+          <a
+            href="https://link.e.blog.myfitnesspal.com/f/a/csMauaXiuy_xFlZR_MjGFg~~/AAQRxQA~/RgRj7NVnP0SMaHR0cHM6Ly9zdXBwb3J0Lm15Zml0bmVzc3BhbC5jb20vPyUyNHdlYl9vbmx5PXRydWUmdXRtX3NvdXJjZT1tZnAmdXRtX21lZGl1bT1lbWFpbCZ1dG1fY2FtcGFpZ249MjAyMjAyMTRfTUZQTmV3c2xldHRlcjYwRCZ1dG1fY29udGVudD1mb290ZXJXA3NwY0IKYgVnUApidjBpRFIRY2FuY2V5ZEBnbWFpbC5jb21YBAAAAHw~"
+            target="_blank"
+            >Customer Service</a
+          >&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+          <a
+            href="https://link.e.blog.myfitnesspal.com/f/a/ChumXHmZMTkyC1sSYpujJA~~/AAQRxQA~/RgRj7NVnP0SXaHR0cHM6Ly93d3cubXlmaXRuZXNzcGFsLmNvbS9wcml2YWN5LXBvbGljeS8_JTI0d2ViX29ubHk9dHJ1ZSZ1dG1fc291cmNlPW1mcCZ1dG1fbWVkaXVtPWVtYWlsJnV0bV9jYW1wYWlnbj0yMDIyMDIxNF9NRlBOZXdzbGV0dGVyNjBEJnV0bV9jb250ZW50PWZvb3RlclcDc3BjQgpiBWdQCmJ2MGlEUhFjYW5jZXlkQGdtYWlsLmNvbVgEAAAAfA~~"
+            target="_blank"
+            >Privacy Policy</a
+          >&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+
+          <a
+            href="https://link.e.blog.myfitnesspal.com/f/a/nPWcpjSiOyLXO4Uuf-Pdgw~~/AAQRxQA~/RgRj7NVnP0SZaHR0cHM6Ly93d3cubXlmaXRuZXNzcGFsLmNvbS90ZXJtcy1vZi1zZXJ2aWNlLz8lMjR3ZWJfb25seT10cnVlJnV0bV9zb3VyY2U9bWZwJnV0bV9tZWRpdW09ZW1haWwmdXRtX2NhbXBhaWduPTIwMjIwMjE0X01GUE5ld3NsZXR0ZXI2MEQmdXRtX2NvbnRlbnQ9Zm9vdGVyVwNzcGNCCmIFZ1AKYnYwaURSEWNhbmNleWRAZ21haWwuY29tWAQAAAB8"
+            target="_blank"
+            >Terms of Service</a
+          >
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="100%" padding="30px 0 10px">
+        <mj-text
+          align="center"
+          font-size="12px"
+          line-height="14px"
+          color="#616161"
+        >
+          ©2022 MyFitnessPal, Inc. All Rights Reserved <br />
+          135 Townsend St, San Francisco, CA, 94107
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="100%" padding="10px 0 30px">
+        <mj-text align="center" css-class="unsubscribe">
+          <a
+            href="https://link.e.blog.myfitnesspal.com/f/a/w2EhQ7A2D-vrSNixrg5hZQ~~/AAQRxQA~/RgRj7NVnP4S4AWh0dHBzOi8vZGFzaGJvYXJkLTA2LmJyYXplLmNvbS9lbmNfdXNlci91bnN1YnNjcmliZT9kPWlHQ3VuUXRWJTJGRXVDTkgwQVd6MFRDZyUzRCUzRCUyNGZZQURMVUdWZ3hIc0w2MHdnR1JvZ1RQYWFUYUNKc2dtajVPRFZoQ1g4anYlMkI4bGNZTllrZWZPNDhqTWdVJTBBQ2hERUIzNkRNeEM5d3RlVyUyQlRybXBRaEtqR0ViOGZTMlklMkZ6NTFDSXg2YWhzbExlMUM5SUJKWnN0V2NITCUwQUJSUmtUTnlFclhwZCUyRlpkZGdnSGh0bkxaTUlQJTJGZkxSWjF2ZHpENVlPNzRSVmlIaUVTYjJ6SUNaT0pkVmUlMEFmT09Nd1NXeXk0NHNvWmxHJTJCMWE2MlhncmRWaXd1UCUyQkhvZmVCQkpFJTJCcnBtMVA4b1hhUHRJOHZDektrZ2slMEFCUHBPckhHZWU4TXd3V1hnQ2hYYWxRaDFiN3hYSTZneTNWN1VxNCUyQkxkT1p6SlpLMFg3emRETXpjS2RvJTNEJjE9MSYlMjR3ZWJfb25seT10cnVlVwNzcGNCCmIFZ1AKYnYwaURSEWNhbmNleWRAZ21haWwuY29tWAQAAAB8"
+            target="_blank"
+            >Unsubscribe</a
+          >
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- End Footer -->
+  </mj-body>
+</mjml>
